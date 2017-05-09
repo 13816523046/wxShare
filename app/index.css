@@ -1,0 +1,64 @@
+html,body{
+	margin: 0;padding: 0;
+	height: 100%;
+    width: 100%;
+    font-weight: normal;
+}
+span,ul,li,h1,h2,h3,h4,h5,h6,p,img{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-weight: normal;
+}
+[target=_blank] { display: none; }
+#app{
+	margin: 0;padding: 0;position: absolute;top: 0;left: 0;
+	height: 100%;width: 100%;
+}
+div,img,a,button {
+    -webkit-tap-highlight-color: rgba(255,0,0,0);
+}
+a{
+	text-decoration: none;
+}
+.font12{
+	font-size: 0.32rem;
+}
+.font14{
+	font-size: 0.3733rem;
+}
+.font16{
+	font-size: 0.426rem;
+}
+.font18{
+	font-size: 0.5217rem;
+}
+.font22{
+	font-size: 0.5866rem;
+}
+.font24{
+	font-size: 0.64rem;
+}
+.font28{
+	font-size: 0.7466rem;
+}
+.font32{
+	font-size: 0.8533rem;
+}
+.font36{
+	font-size: 0.96rem;
+}
+.font38{
+	font-size: 1.0133rem;
+}
+
+.in-right-enter-active{
+	transform: translateX(100%);
+  	transition: transform .3s ease-in-out;
+
+}
+.out-left-leave-active{
+	transform: translateX(-100%);
+  	transition: transform .3s ease-in-out;
+
+}
